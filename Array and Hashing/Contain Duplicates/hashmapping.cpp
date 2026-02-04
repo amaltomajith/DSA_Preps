@@ -2,7 +2,7 @@
 #include<vector>
 #include<unordered_set>
 using namespace std;
-bool containdDuple(vector<int> &numd)
+bool containdDuple(const vector<int> &numd)
 {
     unordered_set<int> notebook;
     for (int i = 0; i < numd.size(); i++) {
